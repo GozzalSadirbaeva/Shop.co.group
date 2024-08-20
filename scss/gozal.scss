@@ -1,0 +1,345 @@
+.most__used {
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #00000099;
+}
+
+.most__used2 {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000000;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.2px;
+    color: #000000;
+}
+.num{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #000000;
+
+}
+
+.main__container {
+    border-top: 1px solid #0000001A;
+    display: flex;
+    gap: 20px;
+
+    &__settings {
+        padding-top: 24px;
+
+
+        &__page {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding-bottom: 24px;
+
+            &__casual {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                padding-left: 8px;
+                color: #000000;
+
+
+            }
+        }
+
+        &__all {
+            width: 295px;
+            height: 1, 220px;
+            padding: 20px 24px 20px 24px;
+            gap: 24px;
+            border-radius: 20px;
+            border: 1px solid #0000001A;
+
+            &__filter {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 24px;
+                border-bottom: 1px solid #0000001A
+            }
+            ul{
+                padding-bottom: 24px;
+            }
+
+            &__li {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 24px;
+            }
+        }
+
+        &__price {
+            border-top: 1px solid #0000001A;
+            margin-bottom: 24px;
+
+
+            &__text {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 24px 0px 20px 0px;
+
+            }
+            &__bar {
+                position: relative;
+                &__bar1 {
+                    position: absolute;
+                    width: 247px;
+                    height: 6px;
+                    border-radius: 20px;
+                    background-color: #F0F0F0;
+
+                }
+
+                &__bar2 {
+                    position: absolute;
+                    left: 50px;
+                    width: 135px;
+                    height: 6px;
+                    padding-left: 43.13px;
+                    border-radius: 20px;
+                    background-color: #000000;
+
+                }
+                &__circle{
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: #000000;
+                    top: -7px;
+                    left: 47px;
+
+                }
+                &__circle2{
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: #000000;
+                    top: -7px;
+                    right: 52px;
+                }
+            }
+
+            &__1{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 20px;
+                font-family: Satoshi;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 18.9px;
+
+            }
+
+        }
+
+        &__color{
+         border-top: 1px solid #0000001A;
+         margin-bottom: 24px;
+
+            &__type{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+        &__size{
+            border-top: 1px solid #0000001A;
+            margin-bottom: 24px;
+
+            &__type{
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+                &__btn{
+                    padding: 10px 20px;
+                    border-radius: 62px;
+                    background-color: #F0F0F0;
+                    font-family: Satoshi;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18.9px;
+                    color: #00000099;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: #000000;
+                        color: #FFFFFF;
+                    }
+                }   
+            }
+        }
+        &__dress{
+            border-top: 1px solid #0000001A;
+            margin-bottom: 24px;
+
+            &__btn{
+                width: 247px;
+                padding: 16px 54px;
+                border-radius: 62px;
+                background-color: #000000;
+                font-family: Satoshi;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 18.9px;
+                color: #FFFFFF;
+                cursor: pointer;
+
+
+                
+            }
+
+        }
+    }
+
+    &__clothes{
+        padding-top: 70px;
+        width: 100%;
+
+        &__title{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            &__text{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                span{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 21.6px;
+                    color: #000000;
+                }
+
+            }
+        }
+
+        &__items{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding-top: 16px;
+            border-bottom: 1px solid #0000001A;
+             padding-bottom: 32px;
+
+
+
+
+            &__elements{
+
+                h3{
+                padding-top: 16px;
+
+                }
+
+                &__star{
+                    display: flex;
+                    align-items: center;
+                    padding: 8px 0px;
+
+                    strong{
+                        padding-left: 13px;
+                    }
+                    span{
+                        color: #00000099;
+
+                    }
+                }
+
+                p{
+                    font-family: Satoshi;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32.4px;
+                    text-align: left;
+                }
+                &__discount{
+                    display: flex;
+                    gap: 10px;
+
+                    &__previous{
+                        color: #00000066;
+                        text-decoration: line-through;
+
+                    }
+
+                    &__previous2{
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 16.2px;
+                        color: #FF3333;
+                        padding: 6px 14px;
+                        background-color: #FF33331A;
+                        border-radius: 62px;
+                        display: flex;
+                        align-items: center;
+
+
+                    }
+                }
+            }
+        }
+        &__end{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 0px 82px 0px;
+            
+
+            &__previous{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                padding: 8px 14px;
+                border: 1px solid #0000001A;
+                border-radius: 8px;
+                cursor: pointer;
+
+                p{
+                    font-family: Satoshi;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    text-align: left;
+
+                }
+            }
+            
+            &__num{
+                display: flex;
+                gap: 40px;
+                cursor: pointer;
+                
+
+                a{
+                    font-family: Satoshi;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #00000080;
+                    
+                }
+                
+            }
+        }
+    }
+
+    
+}
